@@ -10,7 +10,11 @@ dotenv.config();
 conectarDB();
 
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+    origin:["web-prueba-t-cnica-844ox0ab1-diony-caros-projects.vercel.app"],
+    methods:["POST","GETS"],
+    credentials:true
+}));
 
 
 const PORT = process.env.PORT || 3000;
