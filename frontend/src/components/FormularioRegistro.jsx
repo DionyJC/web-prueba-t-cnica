@@ -49,7 +49,7 @@ const FormularioRegistro = () => {
       return;
     }
 
-    fetch("web-prueba-t-cnica-844ox0ab1-diony-caros-projects.vercel.app/registro", {
+    fetch("http://localhost:4000/registro", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
