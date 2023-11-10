@@ -11,7 +11,7 @@ conectarDB();
 
 app.use(express.json());
 app.use(cors({
-    origin:[""],
+    origin:["https://web-prueba-t-cnica-1re7-bwn51w2f0-diony-caros-projects.vercel.app/"],
     methods:["POST","GETS"],
     credentials:true
 }));
